@@ -473,8 +473,8 @@
           console.log(rand(5, 10))
           score++
           scoreText.innerText = score
-          // console.log(bossHB.value)
-          if (bossHB.value < 0) {
+          console.log(bossHB.value)
+          if (bossHB.value <= 0) {
             $('#boss').attr('src', './images/william-robinson-blob-alien-explode.gif')
             end()
           }
