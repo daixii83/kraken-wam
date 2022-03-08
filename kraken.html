@@ -428,7 +428,7 @@
       clearInterval(timer)
       stopcountdown()
 
-      $('#boss').attr('src', '/images/william-robinson-blob-alien-passive.gif')
+      $('#boss').attr('src', './images/william-robinson-blob-alien-passive.gif')
 
       for (const foot of feet) {
         foot.classList.remove('down')
@@ -476,7 +476,7 @@
           scoreText.innerText = score
           console.log(bossHB.value)
           if (bossHB.value <= 0) {
-            $('#boss').attr('src', './images/william-robinson-blob-alien-explode.gif')
+            $('#boss').attr('src', './images/william-robinson-blob-alien-explode_once.gif')
             end()
           }
         }
